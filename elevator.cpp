@@ -2,7 +2,7 @@
 #include <sstream>
 #include <vector>
 
-using namespace std;
+using namespace std;               //Might fail if input is not given in exactly the same format as in the task
 
 void quick_sort(int[],int,int);
 int partition(int[],int,int);
